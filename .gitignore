@@ -10,4 +10,6 @@ cloudinary_python.txt
 kaggle.json
 .venv/
 venv/
-Flight_Delays_and_Cancellations_analysis_3/data/flight_data_2024.csv
+Flight_Delays_and_Cancellations_analysis_3/jupyter_notebooks/flight_data_2024.csv
+
+
