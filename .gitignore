@@ -11,5 +11,6 @@ kaggle.json
 .venv/
 venv/
 Flight_Delays_and_Cancellations_analysis_3/jupyter_notebooks/flight_data_2024.csv
+jupyter_notebooks/cleaned_flight_data.csv
 
 
