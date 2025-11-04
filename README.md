@@ -189,8 +189,6 @@ Dashboard is published to Tableau Public and accessible via the link above.
 
 ## Credits
 
-## Credits
-
 This project was supported by a variety of tutorials, documentation, and community resources:
 
 - [YouTube Tutorial: Tableau Dashboard Design](https://www.youtube.com/watch?v=6oFTdbrugUs)  
