@@ -16,6 +16,9 @@ The dataset was sourced from [Kaggle](https://www.kaggle.com/datasets/nalisha/fl
 - Columns such as `fl_date`, `origin_city_name`, `dep_time`, `taxi_out`, `weather_delay`, `late_aircraft_delay`, and `distance`  
 - Cleaned version includes an added `dep_hour` column for time-based analysis
 
+> Note: All CSV files used in this project are stored in the `jupyter_notebooks/` folder to ensure compatibility with notebook paths.
+
+
 ### Cleaned Dataset
 
 Due to GitHub’s file size limits, the cleaned flight dataset is hosted externally:
