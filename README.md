@@ -1,6 +1,6 @@
-# ✈️ Flight Delay Analysis Dashboard – Capstone Project
+#  Flight Delay Analysis - Capstone Project
 
-## 📊 Project Overview
+## Project Overview
 
 This project explores flight delays and cancellations across the United States using a dataset of over 1 million flights from 2024. It combines Python-based data analysis, hypothesis testing, machine learning, and interactive dashboard design in Tableau to uncover patterns and predictive insights.
 
@@ -8,7 +8,7 @@ The goal is to help stakeholders — airlines, airports, and passengers — bett
 
 ---
 
-## 📁 Dataset Content
+## Dataset Content
 
 The dataset was sourced from [Kaggle](https://www.kaggle.com/datasets/nalisha/flight-delay-and-cancellation-data-1-million-2024) and includes:
 
@@ -16,15 +16,15 @@ The dataset was sourced from [Kaggle](https://www.kaggle.com/datasets/nalisha/fl
 - Columns such as `fl_date`, `origin_city_name`, `dep_time`, `taxi_out`, `weather_delay`, `late_aircraft_delay`, and `distance`  
 - Cleaned version includes an added `dep_hour` column for time-based analysis
 
-### 📎 Cleaned Dataset
+### Cleaned Dataset
 
 Due to GitHub’s file size limits, the cleaned flight dataset is hosted externally:
 
-👉 [Download cleaned_flight_data.csv](https://drive.google.com/file/d/1kRC48SktgOd24EyuoVCt7eIev6QdcuhW/view?usp=sharing)
+ [Download cleaned_flight_data.csv](https://drive.google.com/file/d/1kRC48SktgOd24EyuoVCt7eIev6QdcuhW/view?usp=sharing)
 
 ---
 
-## 💼 Business Requirements
+## Business Requirements
 
 - Identify delay patterns by time, location, and flight characteristics  
 - Understand how weather and operational factors influence delays  
@@ -33,7 +33,7 @@ Due to GitHub’s file size limits, the cleaned flight dataset is hosted externa
 
 ---
 
-## 🔍 Hypotheses & Validation
+## Hypotheses & Validation
 
 Ten hypotheses were tested, including:
 
@@ -52,7 +52,7 @@ Each hypothesis was validated using grouped statistics, visualizations, and regr
 
 ---
 
-## 🧭 Project Plan
+## Project Plan
 
 ### Data Management
 - Loaded and cleaned raw CSV in Python using `pandas`  
@@ -73,7 +73,7 @@ Each hypothesis was validated using grouped statistics, visualizations, and regr
 
 ---
 
-## 🧪 Analysis Techniques
+## Analysis Techniques
 
 - Descriptive statistics: mean, median, standard deviation  
 - Probability and distribution analysis  
@@ -87,7 +87,7 @@ Each hypothesis was validated using grouped statistics, visualizations, and regr
 
 ---
 
-## 🤖 Generative AI Integration
+## Generative AI Integration
 
 - Used Copilot for:
   - Code optimization and debugging  
@@ -97,11 +97,11 @@ Each hypothesis was validated using grouped statistics, visualizations, and regr
 
 ---
 
-## ⚖️ Ethics & Reflection Notebook
+## Ethics & Reflection Notebook
 
 This project includes a dedicated notebook addressing ethical, legal, and reflective aspects of the analysis:
 
-👉 [View Ethics_Reflection_and_Project_Review.ipynb](./Ethics_Reflection_and_Project_Review.ipynb)
+[View Ethics_Reflection_and_Project_Review.ipynb](./Ethics_Reflection_and_Project_Review.ipynb)
 
 Topics covered:
 - Bias and fairness in delay reporting  
@@ -113,34 +113,34 @@ Topics covered:
 
 ## 📊 Dashboard Design
 
-### ✈️ Flight Delay Dashboard Summary
+### Flight Delay Dashboard Summary
 
 This dashboard provides a comprehensive analysis of flight delays across the United States using 2024 flight data. It is organized into three key sections, each designed to explore different dimensions of delay patterns and their contributing factors.
 
-👉 [View Dashboard on Tableau Public](https://public.tableau.com/app/profile/andrea.ferreira4559/viz/Flight_delays_analysis-Dashboard/Dashboard1)
+ [View Dashboard on Tableau Public](https://public.tableau.com/app/profile/andrea.ferreira4559/viz/Flight_delays_analysis-Dashboard/Dashboard1)
 
-#### 🕒 1. Delay Patterns
+#### 1. Delay Patterns
 This section investigates how delays fluctuate based on time-related variables:
 
 - **Late Aircraft by Hour**: Highlights peak hours for late aircraft delays, revealing operational bottlenecks.  
 - **Weather Delay by Month**: Tracks seasonal trends in weather-related delays, identifying high-risk months.  
 - **Delay Rate by Weekday**: Compares delay frequencies across weekdays to uncover scheduling inefficiencies.  
 
-#### 🗺️ 2. Geographic Insights
+#### 2. Geographic Insights
 This section focuses on spatial patterns in delay behavior:
 
 - **Delay Heatmap by Airport and Hour**: Visualizes delay intensity across major airports and time slots.  
 - **Average Departure Delay by Airport**: Ranks airports by average delay duration, highlighting performance gaps.  
 - **Delay Rate by City**: Maps delay rates across cities to identify regional trends.  
 
-#### 📏 3. Distance & Taxi-Out Analysis
+#### 3. Distance & Taxi-Out Analysis
 This section explores how flight distance and ground operations affect delays:
 
 - **Taxi-Out Time by Delay Status**: Compares taxi-out durations for delayed vs. on-time flights.  
 - **Taxi-Out Time by Distance Category**: Examines how flight length influences ground movement time.  
 - **Delay Rate by Flight Distance**: Reveals how short-haul vs. long-haul flights differ in delay likelihood.  
 
-#### 🎛️ Interactivity
+#### Interactivity
 To enhance user exploration, the dashboard includes filters tailored to each section:
 
 - **Delay Patterns**: `weekday_name` — explore delay trends by day of the week  
@@ -149,17 +149,17 @@ To enhance user exploration, the dashboard includes filters tailored to each sec
 
 ---
 
-### 🐞 Unfixed Bugs & Challenges
+### Unfixed Bugs & Challenges
 
 #### Pandas Warning
 Resolved using `.loc` and `.astype('Int64')` to ensure safe assignment.
 
 #### Seaborn FutureWarning
-> ⚠️ Note: Seaborn’s upcoming changes to `palette` without `hue` triggered a warning. Safe to ignore.
+> Note: Seaborn’s upcoming changes to `palette` without `hue` triggered a warning. Safe to ignore.
 
 ---
 
-## 🚀 Development Roadmap
+## Development Roadmap
 
 ### Challenges Faced
 - Time formatting issues  
@@ -173,13 +173,13 @@ Resolved using `.loc` and `.astype('Int64')` to ensure safe assignment.
 
 ---
 
-## 🌐 Deployment
+## Deployment
 
 Dashboard is published to Tableau Public and accessible via the link above.
 
 ---
 
-## 🧰 Main Data Analysis Libraries
+## Main Data Analysis Libraries
 
 - `pandas` – data cleaning and manipulation  
 - `matplotlib`, `seaborn`, `plotly` – visualizations  
@@ -187,7 +187,7 @@ Dashboard is published to Tableau Public and accessible via the link above.
 
 ---
 
-## 📚 Credits
+## Credits
 
 (https://www.youtube.com/watch?v=6oFTdbrugUs). 
 https://www.youtube.com/watch?v=ukZn2RJb7TU
@@ -204,7 +204,7 @@ https://digitalprivacy.ieee.org/publications
 
 ---
 
-## 🙏 Acknowledgements
+## Acknowledgements
 
 Thanks to instructors, peers, and Copilot for guidance and resolve errors I encountered throughout this project.
 
