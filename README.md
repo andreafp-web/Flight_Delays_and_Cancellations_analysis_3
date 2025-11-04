@@ -92,8 +92,8 @@ Each hypothesis was validated using grouped statistics, visualizations, and regr
 - Used Copilot for:
   - Code optimization and debugging  
   - Dashboard layout planning  
-  - README drafting and storytelling  
-  - Hypothesis framing and validation logic
+  - Fixing code errors
+  
 
 ---
 
