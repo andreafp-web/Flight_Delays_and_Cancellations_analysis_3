@@ -169,7 +169,7 @@ Resolved using `.loc` and `.astype('Int64')` to ensure safe assignment.
 ### Next Steps
 - Explore classification models  
 - Add airline-level analysis  
-- Deploy dashboard to Tableau Public
+- Enhance dashboard interactivity and publish additional insights
 
 ---
 
@@ -189,22 +189,28 @@ Dashboard is published to Tableau Public and accessible via the link above.
 
 ## Credits
 
-(https://www.youtube.com/watch?v=6oFTdbrugUs). 
-https://www.youtube.com/watch?v=ukZn2RJb7TU
-LMS resoruces from Code Institute
-https://www.cyberproof.com/blog/ai-data-security-key-threats-and-protection/
-https://digitalprivacy.ieee.org/publications
+## Credits
+
+This project was supported by a variety of tutorials, documentation, and community resources:
+
+- [YouTube Tutorial: Tableau Dashboard Design](https://www.youtube.com/watch?v=6oFTdbrugUs)  
+- [YouTube Tutorial: Linear Regression with Scikit-Learn](https://www.youtube.com/watch?v=ukZn2RJb7TU)   
+- [CyberProof: AI & Data Security](https://www.cyberproof.com/blog/ai-data-security-key-threats-and-protection/)  
+- [IEEE Digital Privacy Publications](https://digitalprivacy.ieee.org/publications)  
+- LMS resources from Code Institute 
 - Official documentation:
   - [Pandas](https://pandas.pydata.org/docs/)
   - [Seaborn](https://seaborn.pydata.org/)
   - [Scikit-learn](https://scikit-learn.org/stable/)
 - Community support from Stack Overflow and Medium blogs  
 - Dashboard layout inspired by public Tableau galleries  
-- Microsoft Copilot for code support
+- Microsoft Copilot for code support and documentation guidance
+
 
 ---
 
 ## Acknowledgements
 
-Thanks to instructors, peers, and Copilot for guidance and resolve errors I encountered throughout this project.
+Thanks to instructors, peers, and Microsoft Copilot for guidance and help resolving technical challenges throughout this project.
+
 
